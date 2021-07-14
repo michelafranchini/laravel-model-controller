@@ -12,10 +12,9 @@
        
     </head>
     <body>
-        <h1>ciao!</h1>
-        {{-- @foreach ($movies as $movie)
+        @foreach ($movies as $movie)
             <h2>{{$movie->title}}</h2>
             <h3>{{$movie->original_title}}</h3>
-        @endforeach --}}
+        @endforeach
     </body>
 </html>
